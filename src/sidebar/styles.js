@@ -21,10 +21,11 @@ const styles = theme => ({
     height: '35px',
     borderBottom: '1px solid black',
     borderRadius: '0px',
-    backgroundColor: '#29487d',
-    color: 'white',
+    backgroundColor: '#28787c',
+    color: '#ffff00',
     '&:hover': {
-      backgroundColor: '#88a2ce'
+      backgroundColor: '#69f0ae',
+      color: 'black'
     }
   },
   sidebarContainer: {
@@ -51,7 +52,12 @@ const styles = theme => ({
     width: '100%',
     backgroundColor: '#28787c',
     borderRadius: '0px',
-    color: 'white'
+    color: '#ffff00',
+    '&:hover': {
+      backgroundColor: '#69f0ae',
+      color: 'black'
+    }
+    
   }
 });
 

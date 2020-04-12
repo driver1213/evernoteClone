@@ -14,8 +14,8 @@ const styles = theme => ({
     padding: '5px',
     fontSize: '24px',
     width: 'calc(100% - 300px)',
-    backgroundColor: '#29487d',
-    color: 'white',
+    backgroundColor: '#28787c',
+    color: '#ffff00',
     paddingLeft: '50px'
   },
   editIcon: {

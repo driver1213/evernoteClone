@@ -3,7 +3,10 @@ const styles = theme => ({
     cursor: 'pointer'
   },
   textSection: {
-    maxWidth: '85%'
+    maxWidth: '85%',
+    '&:hover':{
+      color: '#4caf50'
+    }
   },  
   deleteIcon: {
     position: 'absolute',
